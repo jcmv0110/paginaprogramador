@@ -8,23 +8,15 @@ export default function Footer() {
           </div>
           <div className="flex space-x-8">
             <a 
-              href="https://twitter.com" 
+              href="https://www.instagram.com/j_camilo__/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-400 text-sm transition-colors"
             >
-              X
+              Instagram
             </a>
             <a 
-              href="https://tiktok.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:text-blue-400 text-sm transition-colors"
-            >
-              TikTok
-            </a>
-            <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/juan-camilo-mejia-villegas-4385973a8/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-400 text-sm transition-colors"
@@ -32,7 +24,7 @@ export default function Footer() {
               LinkedIn
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/jcmv0110" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-400 text-sm transition-colors"
