@@ -45,24 +45,24 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="bg-gray-900 rounded-lg h-80 flex items-center justify-center border border-gray-800 shadow-lg">
-                <span className="text-gray-600 text-sm">Profile</span>
+                <span className="text-gray-600 text-sm">Perfil</span>
               </div>
             </div>
             <div className="order-1 md:order-2 space-y-6">
-              <h2 className="text-4xl font-light text-white">About</h2>
+              <h2 className="text-4xl font-light text-white">Acerca de</h2>
               <p className="text-gray-300 leading-relaxed">
-                I&apos;m a passionate developer with expertise in modern web technologies. 
-                I love building scalable applications and sharing my knowledge with the community.
+                Soy un desarrollador apasionado con experiencia en tecnologías web modernas. 
+                Me encanta construir aplicaciones escalables y compartir mi conocimiento con la comunidad.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                With years of experience in frontend and backend development, 
-                I specialize in creating intuitive user interfaces and robust server-side solutions.
+                Con años de experiencia en desarrollo frontend y backend, 
+                me especializo en crear interfaces de usuario intuitivas y soluciones robustas del lado del servidor.
               </p>
               <Link 
                 href="/about"
                 className="inline-block text-blue-400 hover:text-blue-300 px-6 py-3 border border-blue-400/20 rounded-md hover:border-blue-400/40 transition-all"
               >
-                Learn more →
+                Saber más →
               </Link>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function HomePage() {
               {featuredPost && (
                 <div className="bg-gray-900 rounded-lg border border-gray-800 shadow-lg overflow-hidden">
                   <div className="h-48 flex items-center justify-center">
-                    <span className="text-gray-600 text-sm">Featured image</span>
+                    <span className="text-gray-600 text-sm">Imagen destacada</span>
                   </div>
                   <div className="p-8 space-y-4">
                     <h3 className="text-2xl font-light text-white">
@@ -90,7 +90,7 @@ export default function HomePage() {
                       href={`/blog/${featuredPost.id}`}
                       className="text-blue-400 hover:text-blue-300 font-light"
                     >
-                      Read more →
+                      Leer más →
                     </Link>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ export default function HomePage() {
                       href={`/blog/${post.id}`}
                       className="text-blue-400 hover:text-blue-300 text-sm font-light"
                     >
-                      Read →
+                      Leer →
                     </Link>
                   </div>
                 </div>

@@ -6,45 +6,45 @@ import Footer from '@/components/Footer';
 const blogPosts = [
   {
     id: 1,
-    title: 'Getting Started with React Hooks',
-    summary: 'Learn the fundamentals of React Hooks and how to use them effectively in your applications.',
+    title: 'Primeros Pasos con React Hooks',
+    summary: 'Aprende los fundamentos de React Hooks y cómo usarlos efectivamente en tus aplicaciones.',
     content: 'React Hooks revolutionized the way we write React components...',
     featured: true
   },
   {
     id: 2,
-    title: 'TypeScript Best Practices',
-    summary: 'Essential TypeScript patterns and practices for better code quality.',
+    title: 'Mejores Prácticas de TypeScript',
+    summary: 'Patrones esenciales de TypeScript y prácticas para mejor calidad de código.',
     content: 'TypeScript provides powerful type checking capabilities...'
   },
   {
     id: 3,
-    title: 'Building Responsive Layouts',
-    summary: 'Master responsive design with modern CSS techniques.',
+    title: 'Construyendo Layouts Responsivos',
+    summary: 'Domina el diseño responsivo con técnicas modernas de CSS.',
     content: 'Creating layouts that work across all devices is crucial...'
   },
   {
     id: 4,
-    title: 'Next.js Performance Tips',
-    summary: 'Optimize your Next.js applications for better performance.',
+    title: 'Consejos de Rendimiento para Next.js',
+    summary: 'Optimiza tus aplicaciones Next.js para mejor rendimiento.',
     content: 'Performance optimization is key for user experience...'
   },
   {
     id: 5,
-    title: 'Modern JavaScript ES6+ Features',
-    summary: 'Explore the latest JavaScript features and how to use them in your projects.',
+    title: 'Características Modernas de JavaScript ES6+',
+    summary: 'Explora las últimas características de JavaScript y cómo usarlas en tus proyectos.',
     content: 'JavaScript has evolved significantly with ES6 and beyond...'
   },
   {
     id: 6,
     title: 'CSS Grid vs Flexbox',
-    summary: 'Understanding when to use CSS Grid versus Flexbox for layouts.',
+    summary: 'Entiende cuándo usar CSS Grid versus Flexbox para layouts.',
     content: 'Both CSS Grid and Flexbox are powerful layout tools...'
   },
   {
     id: 7,
-    title: 'State Management in React',
-    summary: 'Comparing different state management solutions for React applications.',
+    title: 'Manejo de Estado en React',
+    summary: 'Comparando diferentes soluciones de manejo de estado para aplicaciones React.',
     content: 'State management is a crucial aspect of React development...'
   }
 ];
@@ -63,7 +63,7 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="bg-gray-900 rounded-lg h-96 flex items-center justify-center border border-gray-800 shadow-lg">
-                <span className="text-gray-600 text-sm">Featured image</span>
+                <span className="text-gray-600 text-sm">Imagen destacada</span>
               </div>
             </div>
             <div className="order-1 md:order-2 space-y-6">
@@ -74,14 +74,13 @@ export default function BlogPage() {
                 {featuredPost?.summary}
               </p>
               <p className="text-gray-300 leading-relaxed">
-                Dive deep into modern web development practices and learn how to build scalable, 
-                maintainable applications using the latest technologies and frameworks.
+                Sumérgete profundamente en las prácticas modernas de desarrollo web y aprende cómo construir aplicaciones escalables y mantenibles usando las últimas tecnologías y frameworks.
               </p>
               <Link 
                 href={`/blog/${featuredPost?.id}`}
                 className="inline-block text-blue-400 hover:text-blue-300 px-6 py-3 border border-blue-400/20 rounded-md hover:border-blue-400/40 transition-all"
               >
-                Read more →
+                Leer más →
               </Link>
             </div>
           </div>
@@ -89,7 +88,7 @@ export default function BlogPage() {
 
         {/* Blog Posts Grid */}
         <section>
-          <h2 className="text-3xl font-light text-white mb-12">Latest Posts</h2>
+          <h2 className="text-3xl font-light text-white mb-12">Últimos Posts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {regularPosts.map((post) => (
               <div key={post.id} className="bg-gray-900 rounded-lg p-6 border border-gray-800 shadow-lg space-y-4">
@@ -110,7 +109,7 @@ export default function BlogPage() {
                       href={`/blog/${post.id}`}
                       className="text-blue-400 hover:text-blue-300 text-sm font-light"
                     >
-                      Read →
+                      Leer →
                     </Link>
                   </div>
                 </div>

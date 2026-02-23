@@ -13,10 +13,10 @@ export default function Header() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link href="/" className="text-white hover:text-blue-400 px-3 py-2 rounded-md text-sm font-light transition-colors">
-                Home
+                Inicio
               </Link>
               <Link href="/about" className="text-gray-400 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-light transition-colors">
-                About
+                Acerca de
               </Link>
               <Link href="/blog" className="text-gray-400 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-light transition-colors">
                 Blog
